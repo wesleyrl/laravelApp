@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\client as Client;
+use App\Entities\client as Client;
 
 class ClientTableSeeder extends Seeder
 {

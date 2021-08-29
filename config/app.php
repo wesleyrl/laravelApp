@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Cache\Repository;
+
 return [
 
     /*
@@ -174,6 +176,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+      
+        
+        App\Providers\AppRepositoryProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
     ],
 

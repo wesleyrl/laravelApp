@@ -22,3 +22,4 @@ Route::get('client',[ClientController::class,'index']);
 Route::post('client',[ClientController::class,'store']);
 Route::get('client/{id}',[ClientController::class,'show']);
 Route::delete('client/{id}',[ClientController::class,'delete']);
+Route::post('client/{id}',[ClientController::class,'update']);
